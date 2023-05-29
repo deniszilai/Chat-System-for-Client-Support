@@ -1,0 +1,9 @@
+version: '3.9'
+services:
+  backend:
+    image: ds_2022_30244_zilai_denis_assignment_3-backend:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
